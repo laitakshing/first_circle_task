@@ -90,6 +90,19 @@ first-circle-data-engineer/
 
 ---
 
+## .env
+Create a file named .env in the project root with the following contents (these values can be overridden by your environment):
+```bash
+DATABASE_URL=postgresql://postgres:password@localhost:5432/firstcircle
+KAFKA_BROKER=localhost:9092
+KAFKA_TOPIC=transactions
+KAFKA_CONSUMER_GROUP=first-circle-consumers
+CSV_FILE=sample_data/sample_transactions.csv
+REPORTS_DIR=reports
+```
+
+---
+
 ## Setup & Initialization
 
 ### 1. Clone the Repository
