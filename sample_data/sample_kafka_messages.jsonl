@@ -1,0 +1,3 @@
+{"transaction_id":"a1b2c3d4-e5f6-7a8b-9c0d-111111111111","sender_id":"00000000-0000-0000-0000-000000000001","receiver_id":"00000000-0000-0000-0000-000000000002","amount":250.00,"currency":"USD","timestamp":"2025-05-01T12:00:00Z","status":"completed"}
+{"transaction_id":"a1b2c3d4-e5f6-7a8b-9c0d-222222222222","sender_id":"00000000-0000-0000-0000-000000000002","receiver_id":"00000000-0000-0000-0000-000000000001","amount":15000.00,"currency":"USD","timestamp":"2025-05-02T09:30:00Z","status":"pending"}
+{"transaction_id":"a1b2c3d4-e5f6-7a8b-9c0d-333333333333","sender_id":"00000000-0000-0000-0000-000000000003","receiver_id":"00000000-0000-0000-0000-000000000004","amount":-5.00,"currency":"USD","timestamp":"invalid-timestamp","status":"oops"}
